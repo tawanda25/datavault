@@ -1,3 +1,5 @@
+use schema L00_STG;
+
 CREATE OR REPLACE VIEW stg_customer_strm_outbound AS 
 SELECT src.*
      , raw_json:C_CUSTKEY::NUMBER           c_custkey

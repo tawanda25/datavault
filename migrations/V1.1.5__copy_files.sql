@@ -1,3 +1,5 @@
+use schema L00_STG;
+
 COPY INTO @customer_data 
 FROM
 (SELECT object_construct(*)

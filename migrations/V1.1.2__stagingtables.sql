@@ -1,3 +1,5 @@
+use schema L00_STG;
+
 CREATE OR REPLACE TABLE stg_customer
 (
   raw_json                VARIANT

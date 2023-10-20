@@ -1,3 +1,4 @@
+use schema L00_STG;
 CREATE OR REPLACE TASK customer_strm_tsk
   WAREHOUSE = dv_rdv_wh
   SCHEDULE = '1 minute'

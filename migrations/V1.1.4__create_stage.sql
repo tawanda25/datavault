@@ -1,2 +1,3 @@
+use schema L00_STG;
 CREATE OR REPLACE STAGE customer_data FILE_FORMAT = (TYPE = JSON);
 CREATE OR REPLACE STAGE orders_data   FILE_FORMAT = (TYPE = CSV) ;

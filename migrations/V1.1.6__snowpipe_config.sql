@@ -1,3 +1,5 @@
+use schema L00_STG;
+
 CREATE OR REPLACE PIPE stg_orders_pp 
 AS 
 COPY INTO stg_orders 

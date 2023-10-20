@@ -1,6 +1,6 @@
 use schema L00_STG;
 
-CREATE OR REPLACE TABLE stg_customer
+CREATE OR REPLACE TABLE stg_customers
 (
   raw_json                VARIANT
 , filename                STRING   NOT NULL

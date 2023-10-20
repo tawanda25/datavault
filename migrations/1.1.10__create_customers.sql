@@ -1,4 +1,4 @@
-use schema L00_STG;
+use schema l00_stg;
 
 CREATE OR REPLACE TABLE stg_customers
 (
